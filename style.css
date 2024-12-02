@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+  }
+  .container {
+    max-width: 1350px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  header{
+    background-color: #2b3844;
+    
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .box {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  a {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+  }
+  input::placeholder {
+    color: white;
+  }
+  input {
+    border: none;
+    outline: none;
+    background-color: #2b3844;
+    color: white;
+    width: 35%;
+    padding: 10px 30px;
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  form {
+    background-color: #202c36;
+    position: relative;
+  }
+  .img1 {
+    position: absolute;
+    left: 50px;
+    top: 38px;
+  }
+  body{
+    background-color: #202c36;
+  
+  }
+  .bayroqlar {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 50px;
+    margin: 30px 0;
+    justify-content: center;
+  }
+  .maxbox {
+    height: 240px;
+    width: 264px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2b3844;
+    border-radius: 10px;
+    font-size: 13px;
+    gap: 20px;
+  }
+  .maxbox img {
+    margin-top: -10px;
+  }
+  @media (max-width:1296px) {
+    .box a,
+    .box button {
+      font-size: 16px;
+    }
+    input {
+      width: 90%;
+    }
+    .bayroqlar{
+      display: flex;
+      justify-content: space-between;
+  
+    }
+  }
+  @media (max-width: 911px) {
+    .box a,
+    .box button {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 400px) {
+    .box a,
+    .box button {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 800px) {
+      input{
+          width: 90%;
+      }
+    
+    }
